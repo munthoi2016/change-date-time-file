@@ -27,7 +27,7 @@ def modify_files_in_directory(directory_path, start_date, end_date):
 if __name__ == "__main__":
     # Define the directory path and date range
     directory_path = R"D:\Scan T4"
-    start_date = datetime(2024, 4, 28, 8, 0, 0)
+    start_date = datetime(2024, 4, 29, 8, 0, 0)
     end_date = datetime(2024, 4, 28, 19, 59, 59)
 
     modify_files_in_directory(directory_path, start_date, end_date)
